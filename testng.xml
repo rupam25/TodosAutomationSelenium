@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <test name="Functional">
+        <packages>
+            <package name="FunctionalTest.*"/>
+        </packages>
+    </test>
+    <listeners>
+        <listener class-name="Utils.ExcelGenerate" />
+    </listeners>
+</suite>
