@@ -37,7 +37,7 @@ public class PageTest extends BaseServices {
      * TC-1
      * Open pageUrl and validate all default elements present on page.
      */
-    @Test(description = "TC-1", groups = {"positiveCase"})
+    @Test(description = "TC-1")
     public void navigateToPage() {
         SoftAssert soft = new SoftAssert();
 
@@ -57,7 +57,7 @@ public class PageTest extends BaseServices {
      * TC-2
      * Perform search with single data -> validate elements after search
      */
-    @Test(description = "TC-2", groups = {"positiveCase"})
+    @Test(description = "TC-2")
     public void validateSearch() {
 
         SoftAssert soft = new SoftAssert();
@@ -85,7 +85,7 @@ public class PageTest extends BaseServices {
      * TC-3
      * Perform search with multiple data -> validate elements after search
      */
-    @Test(description = "TC-3", groups = {"positiveCase"})
+    @Test(description = "TC-3")
     public void checkMultipleSearch() {
 
         SoftAssert soft = new SoftAssert();
@@ -117,7 +117,7 @@ public class PageTest extends BaseServices {
      * TC-4
      * Perform search and select  radio button-> validate elements after button selection
      */
-    @Test(description = "TC-4", groups = {"negativeCase"})
+    @Test(description = "TC-4")
     public void verifyRadioBtnSelection() {
 
         SoftAssert soft = new SoftAssert();
@@ -141,7 +141,7 @@ public class PageTest extends BaseServices {
      * TC-5
      * Perform search and uncheck selected radio button-> validate elements after button de-selection
      */
-    @Test(description = "TC-5", groups = {"positiveCase"})
+    @Test(description = "TC-5")
     public void verifyUncheckRadioBtn() {
 
         SoftAssert soft = new SoftAssert();
@@ -163,7 +163,7 @@ public class PageTest extends BaseServices {
      * TC-6
      * Perform search then Edit search data-> validate elements after Edit event
      */
-    @Test(description = "TC-6", groups = {"negativeCase"})
+    @Test(description = "TC-6")
     public void editSearchData() {
 
         SoftAssert soft = new SoftAssert();
@@ -193,7 +193,7 @@ public class PageTest extends BaseServices {
      * TC-7
      * Perform search then Remove search data-> validate elements after removal
      */
-    @Test(description = "TC-7", groups = {"negativeCase"})
+    @Test(description = "TC-7")
     public void removeSearchData() {
 
         SoftAssert soft = new SoftAssert();
@@ -221,7 +221,7 @@ public class PageTest extends BaseServices {
      * TC-8
      * Perform search and Select radio button for one data then perform clear operation-> validate elements after clear event
      */
-    @Test(description = "TC-8", groups = {"negativeCase"})
+    @Test(description = "TC-8")
     public void removeSelectedData() {
 
         SoftAssert soft = new SoftAssert();
